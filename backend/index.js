@@ -17,6 +17,9 @@ app.get("/", (req, res) => {
     return res.sendFile(path.resolve("index.html"));
 });
 
+
+
+
 server.listen(3001, () => {
     console.log("It's alive");
 });
